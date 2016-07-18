@@ -1,15 +1,20 @@
 # XXImagePicker
-edit any height and width for image picked from the photo gallery
+###Function:
+
+>edit any height and width for image picked from the photo gallery
 
 
-Step 1: Copy XXImagePicker directory in the project
+###Document
 
-Step 2: Use the XXImagePicker
+**Step 1: Copy XXImagePicker directory in the project**
 
-add codes below when needed:
+**Step 2: Use the XXImagePicker**
 
-//  ratio = height / width
-XXImagePickerController *controller = [[XXImagePickerController alloc] initWithRatio:ratio];
-controller.delegateXX = self;
-[self presentViewController:controller animated:YES completion:nil];
+######add codes below when needed:
 
+	//  ratio = height / width
+	XXImagePickerController *controller = [[XXImagePickerController alloc] initWithRatio:ratio];
+	controller.delegateXX = self;
+	[self presentViewController:controller animated:YES completion:nil];
+
+###Done!
